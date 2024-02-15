@@ -1,0 +1,317 @@
+repo_name: gangadharure/data-center-helm-charts
+report_id: '09357941c8b8566dbd0cf3788573c9c9'
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-15T15:16:02+00:00'
+requested_by: bianchi2
+provider: github
+branch: main
+detected_tools_count: 25
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts
+  detection_source: Repo Metadata
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts
+  detection_source: Repo Metadata
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/docs/build/Dockerfile
+  detection_source: docs/build/Dockerfile
+  last_updated_by: Adam Brokes
+  last_updated_on: 2021-08-02 06:31:03.000000000 Z
+- name: FindBugs
+  description: An open-source static code analyser
+  website_url: http://findbugs.sourceforge.net/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2662/kWjFjx3K_400x400.jpg
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Kenny MacLeod
+  last_updated_on: 2020-11-04 14:33:12.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/.github/workflows/dc-tests.yml
+  detection_source: ".github/workflows/dc-tests.yml"
+  last_updated_by: yivantsov-atlassian
+  last_updated_on: 2022-12-12 21:16:16.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Kenny MacLeod
+  last_updated_on: 2020-11-04 14:33:12.000000000 Z
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Adam Brokes
+  last_updated_on: 2022-09-06 06:03:27.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/docs/requirements.txt
+  detection_source: docs/requirements.txt
+  last_updated_by: Adam Brokes
+  last_updated_on: 2021-08-02 06:31:03.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Kenny MacLeod
+  last_updated_on: 2020-11-04 14:33:12.000000000 Z
+- name: Dataform
+  description: A framework for managing SQL based data operations.
+  website_url: https://dataform.co/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/11236/Group_22__3_.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Wolfgang Kritzinger
+  last_updated_on: 2021-07-22 01:41:18.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts
+  detection_source: Repo Metadata
+- name: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+  description: Support for reading and writing YAML-encoded data via Jackson abstractions
+  version: 2.13.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Adam Brokes
+  last_updated_on: 2022-09-06 06:03:27.000000000 Z
+- name: com.google.code.findbugs:jsr305
+  description: JSR305 Annotations for Findbugs
+  version: 3.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Kenny MacLeod
+  last_updated_on: 2021-02-16 11:37:54.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: 2.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Adam Brokes
+  last_updated_on: 2022-09-06 06:03:27.000000000 Z
+- name: io.fabric8:kubernetes-client
+  description: Java client for Kubernetes &amp; OpenShift
+  version: 6.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Adam Brokes
+  last_updated_on: 2022-09-06 06:03:27.000000000 Z
+- name: io.rest-assured:rest-assured
+  description: Java DSL for easy testing of REST services
+  version: 5.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Steve Smith
+  last_updated_on: 2021-07-30 02:21:13.000000000 Z
+- name: io.vavr:vavr
+  description: Vavr
+  version: 0.10.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Adam Brokes
+  last_updated_on: 2022-09-06 06:03:27.000000000 Z
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  version: 3.23.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Adam Brokes
+  last_updated_on: 2022-09-06 06:03:27.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  version: 5.9.0
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Adam Brokes
+  last_updated_on: 2022-09-06 06:03:27.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-params
+  description: Module "junit-jupiter-params" of JUnit 5
+  version: 5.9.0
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Adam Brokes
+  last_updated_on: 2022-09-06 06:03:27.000000000 Z
+- name: org.slf4j:slf4j-simple
+  description: SLF4J Simple binding
+  version: 1.7.36
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Adam Brokes
+  last_updated_on: 2022-09-06 06:03:27.000000000 Z
+- name: mkdocs-material
+  description: A Material Design theme for MkDocs
+  package_url: https://pypi.org/project/mkdocs-material
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/gangadharure/data-center-helm-charts/blob/main/docs/requirements.txt
+  detection_source: docs/requirements.txt
+  last_updated_by: Adam Brokes
+  last_updated_on: 2021-08-02 06:31:03.000000000 Z
